@@ -1,0 +1,150 @@
+/* Styling for the container of the home page */
+.home {
+  /* Set display to flex and column direction for layout */
+  display: flex;
+  flex-direction: column;
+  /* Center align items horizontally */
+  align-items: center;
+  /* Center the container horizontally */
+  margin: 0 auto;
+  /* Set maximum width to 600px */
+  max-width: 600px;
+  /* Add padding to the container */
+  padding: 20px;
+  /* Set background color */
+  background-color: #f0f0f0;
+  /* Add border radius */
+  border-radius: 5px;
+}
+
+/* Styling for the input field within the create form */
+.create_form input{
+  /* Set width */
+  width: 300px;
+  /* Add padding */
+  padding: 10px;
+  /* Add bottom border */
+  border-bottom: 2px solid;
+  /* Remove outline */
+  outline: none;
+}
+
+/* Styling for the button within the create form */
+.create_form button{
+  /* Add padding */
+  padding: 10px;
+  /* Set background color */
+  background-color: black;
+  /* Set text color */
+  color: white;
+  /* Set cursor to pointer */
+  cursor: pointer;
+  /* Add transition effect */
+  transition: all 0.3s ease;
+}
+
+/* Styling for the button within the create form on hover */
+.create_form button:hover {
+  /* Change background color on hover */
+  background-color: #333;
+}
+
+/* Styling for the heading 2 element within the home page */
+.home h2 {
+  /* Center align text */
+  text-align: center;
+  /* Set text color */
+  color: #333;
+}
+
+/* Styling for the no-record class within the home page */
+.home .no-record {
+  /* Center align text */
+  text-align: center;
+  /* Set text color */
+  color: #888;
+}
+
+/* Styling for the task class within the home page */
+.home .task {
+  /* Add margin bottom */
+  margin-bottom: 10px;
+  /* Set background color */
+  background-color: black;
+  /* Add border */
+  border: 1px solid blue;
+  /* Add border radius */
+  border-radius: 3px;
+  /* Set width */
+  width: 345px;
+  /* Remove outline */
+  outline: none;
+  /* Set display to flex */
+  display: flex;
+  /* Align items vertically */
+  align-items: center;
+  /* Justify content space between */
+  justify-content: space-between;
+  /* Set text color */
+  color: white;
+  /* Set height */
+  height: 35px;
+  /* Add padding */
+  padding: 2px 5px 2px 5px;
+  /* Add margin top */
+  margin-top: 17px;
+  /* Add box shadow */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add transition effect */
+  transition: box-shadow 0.3s ease;
+}
+
+/* Styling for the task class on hover within the home page */
+.home .task:hover {
+  /* Change box shadow on hover */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  /* Change background color on hover */
+  background-color: #f0f0f0;
+  /* Change text color on hover */
+  color: #333;
+}
+
+/* Styling for the checkbox class within the home page */
+.checkbox{
+  /* Set display to flex */
+  display: flex;
+  /* Align items vertically */
+  align-items: center;
+}
+
+/* Styling for the icon within the checkbox class */
+.checkbox .icon{
+  /* Add margin right */
+  margin-right: 5px;
+  /* Set font size */
+  font-size: 15px;
+}
+
+/* Styling for the span within the div element of the task class */
+.task div span {
+  /* Add margin */
+  margin: 0px 5px 0px 4px;
+}
+
+/* Styling for the icon within the div element of the task class */
+.task div .icon{
+  /* Set cursor to pointer */
+  cursor: pointer;
+}
+
+/* Styling for the line-through text decoration */
+.line_through {
+  /* Add text decoration line through */
+  text-decoration: line-through;
+}
+
+/* Styling for transitions for all elements within the create form input, button, and task */
+.create_form input, .create_form button, .task {
+  /* Add transition effect */
+  transition: all 0.3s ease;
+}
